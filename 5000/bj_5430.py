@@ -14,8 +14,8 @@ for _ in range(t):
     else:
         dq = deque(list(map(int, sys.stdin.readline().lstrip('[').rstrip(']\n').split(','))))
 
-    r_flag = False
-    d_flag = False
+    r_flag = False  # reverse?
+    d_flag = False  # D에서 발생한 에러는 []을 출력할 필요가 없다
 
     for c in cmd:
         if c == 'R':
