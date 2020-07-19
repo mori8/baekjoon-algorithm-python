@@ -36,5 +36,3 @@ for k in permutations(nums, alphaLength):
         exit(0)
 
 print("NO")
-
-
