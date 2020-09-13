@@ -15,7 +15,7 @@ for i in range(2000):
     str2 = str1[half:]
     str1 = str1[:half]
     cnt += 1
-    if (str1 + str2 == list(string)):
+    if str1 + str2 == list(string):
         break
 
 period = cnt - n % cnt
